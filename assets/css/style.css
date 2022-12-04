@@ -315,6 +315,7 @@ button {
   background: transparent;
   position: absolute;
   z-index: 999;
+  transition: 0.5s ease-out;
 }
 
 .logo {
@@ -326,6 +327,8 @@ button {
   background: #fff;
   transition: all 0.5s ease-in;
   box-shadow: 0px 10px 50px rgb(0 0 0 / 9%);
+  height: auto;
+  padding: 0;
 }
 
 .sticky,
